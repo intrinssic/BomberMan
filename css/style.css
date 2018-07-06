@@ -1,0 +1,21 @@
+body{
+    margin : 0;
+    padding: 0;
+}
+
+#canvas {
+    /* height: 500px;
+    width: 500px;  */
+}
+
+#fix-tile{
+    background: url(fixtile.png);
+    height: 45px;
+    width: 45px;
+}
+
+#break-tile{
+    background: url(breaktile.png);
+    height: 45px;
+    width: 45px;
+}
