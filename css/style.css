@@ -3,19 +3,53 @@ body{
     padding: 0;
 }
 
-#canvas {
-    /* height: 500px;
-    width: 500px;  */
+#home{
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    background: url("../images/bg.png");
+    z-index: 1;
+}
+
+/* #canvas {
+    
+    height: 500px;
+    width: 500px; 
+} */
+
+#bomberman{
+    background: url("../images/bomberman.gif");
+    height: 20px;
+    width: 20px;
+}
+
+#bomb{
+    background: url("../images/bomb1.png");
+    height: 20px;
+    width: 20px;
 }
 
 #fix-tile{
-    background: url(fixtile.png);
-    height: 45px;
-    width: 45px;
+    /* background: url(images/fixtile.png); */
+    height: 20px;
+    width: 20px;
 }
 
 #break-tile{
-    background: url(breaktile.png);
-    height: 45px;
-    width: 45px;
+    height: 20px;
+    width: 20px;
+}
+
+#grass-tile{
+    height: 20px;
+    width: 20px;
+}
+
+#chest-tile{
+    height: 20px;
+    width: 20px;
+}
+
+.images{
+    display: none;
 }
